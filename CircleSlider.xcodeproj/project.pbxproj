@@ -12,6 +12,9 @@
 		F74E23AD1DE1412600385B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74E23AB1DE1412600385B37 /* Main.storyboard */; };
 		F74E23AF1DE1412600385B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74E23AE1DE1412600385B37 /* Assets.xcassets */; };
 		F74E23B21DE1412600385B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74E23B01DE1412600385B37 /* LaunchScreen.storyboard */; };
+		F74E23BA1DE1414700385B37 /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E23B91DE1414700385B37 /* CircleSlider.swift */; };
+		F74E23BC1DE169B800385B37 /* CircleSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74E23BB1DE169B800385B37 /* CircleSliderView.xib */; };
+		F74E23BE1DE169FA00385B37 /* CircleSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E23BD1DE169FA00385B37 /* CircleSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F74E23AE1DE1412600385B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74E23B11DE1412600385B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74E23B31DE1412600385B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74E23B91DE1414700385B37 /* CircleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSlider.swift; sourceTree = "<group>"; };
+		F74E23BB1DE169B800385B37 /* CircleSliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircleSliderView.xib; sourceTree = "<group>"; };
+		F74E23BD1DE169FA00385B37 /* CircleSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				F74E23A71DE1412600385B37 /* AppDelegate.swift */,
 				F74E23A91DE1412600385B37 /* ViewController.swift */,
 				F74E23AB1DE1412600385B37 /* Main.storyboard */,
+				F74E23BB1DE169B800385B37 /* CircleSliderView.xib */,
+				F74E23BD1DE169FA00385B37 /* CircleSliderView.swift */,
 				F74E23AE1DE1412600385B37 /* Assets.xcassets */,
 				F74E23B01DE1412600385B37 /* LaunchScreen.storyboard */,
 				F74E23B31DE1412600385B37 /* Info.plist */,
+				F74E23B91DE1414700385B37 /* CircleSlider.swift */,
 			);
 			path = CircleSlider;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74E23B21DE1412600385B37 /* LaunchScreen.storyboard in Resources */,
+				F74E23BC1DE169B800385B37 /* CircleSliderView.xib in Resources */,
 				F74E23AF1DE1412600385B37 /* Assets.xcassets in Resources */,
 				F74E23AD1DE1412600385B37 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74E23AA1DE1412600385B37 /* ViewController.swift in Sources */,
+				F74E23BE1DE169FA00385B37 /* CircleSliderView.swift in Sources */,
+				F74E23BA1DE1414700385B37 /* CircleSlider.swift in Sources */,
 				F74E23A81DE1412600385B37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

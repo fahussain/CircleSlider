@@ -10,14 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sliderView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+    func sliderFinished() {
+        print("\n\nthe circle was completed\n\n")
+    }
+    
+    func sliderChanged(_ rad: AnyObject) {
+        print("moved to rad: \(rad)")
+        
+    }
+    
+    func sliderFailed() {
+        print("\n\ncircle circling has failed user messed up\n\n")
     }
 
 
